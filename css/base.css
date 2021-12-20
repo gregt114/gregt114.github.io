@@ -1,0 +1,41 @@
+#site-title {
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border: 1px solid black;
+  border-radius: 2em;
+}
+
+li.navbar-element {
+  float: left;
+  border-right: 1px solid white;
+}
+
+li.navbar-element a.navbar-link {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li.navbar-element a.navbar-link:hover {
+  background-color: #111;
+}
+
+.navbar-active {
+  background-color: lavender;
+}

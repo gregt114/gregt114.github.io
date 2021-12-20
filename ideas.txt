@@ -1,0 +1,5 @@
+resume stuff
+
+animations
+
+math tools (plotting, integrator, etc...)
