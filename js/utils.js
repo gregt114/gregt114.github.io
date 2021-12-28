@@ -6,7 +6,8 @@ function isSafe(str){
     // Banned strings from input
     let banned = [':', ';', '?', '!', '@', '#', '$', '%', '^', '&', '_', '=',
                 '{', '}', '[', ']', '|', '~', '\`', '\"', '\'', '\\',
-            'document', 'console', 'let', 'var', 'const', 'null', 'undefined'];
+                'document', 'console', 'let', 'var', 'const', 'null', 'undefined',
+                'script'];
     for(let i=0; i < banned.length; i++){
         if(str.includes(banned[i])){
             return false;
