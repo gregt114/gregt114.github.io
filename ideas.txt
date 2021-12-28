@@ -3,3 +3,8 @@ resume stuff
 animations
 
 math tools (plotting, integrator, etc...)
+
+image processing
+
+Run local test server:
+py -m http.server

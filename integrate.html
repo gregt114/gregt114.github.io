@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greg's Website</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/integrate.css">
+    <h1 id="site-title">Website Title</h1>
+</head>
+<body>
+    <ul class="navbar">
+        <li class="navbar-element"><a href="./index.html" class="navbar-link">Home</a></li>
+        <li class="navbar-element"><a href="Blog" class="navbar-link">Blog</a></li>
+        <li class="navbar-element"><a href="Resume" class="navbar-link">Resume</a></li>
+        <li class="navbar-element"><a href="./integrate.html" class="navbar-link">Tools</a></li>
+        <li class="navbar-element"><a href="About" class="navbar-link">About</a></li>
+      </ul>
+
+
+      <br>
+
+      <div class="content">
+        <form>
+            <label for="func-input">Function:</label>
+            <input type="text" id="func-input" class="user-in"><br>
+
+            <label for="start">Start:</label>
+            <input type="number" id="start" class="user-in"><br>
+
+            <label for="end">End:</label>
+            <input type="number" id="end" class="user-in"><br>
+
+            <label for="samples">Samples:</label>
+            <input type="number" id="samples" class="user-in"><br>
+
+            <label for="method">Method:</label>
+            <select id="method" class="user-in">
+                <option value="midpoint">Midpoint</option>
+                <option value="trapezoid">Trapezoid</option>
+                <option value="simpson13">Simpson 1/3</option>
+                <option value="simpson38" selected>Simpson 3/8</option>
+            </select><br>
+
+            <input type="button" value="Calculate" id="submit">
+            <br><br>
+
+            Result:<output for="func-input start end samples method" id="result"></output>
+        </form>
+    </div>
+
+      <script type="module" src="./js/test.js"></script>
+
+
+      
+
+
+</body>
+</html> 
